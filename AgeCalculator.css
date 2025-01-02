@@ -11,3 +11,18 @@
     color: #fff;
     padding: 10px;
 }
+
+.calculator{
+    width: 100px;
+    max-width: 600px;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+.calculator h1{
+    font-size: 60px;
+
+}
+.calculator h1 span{
+    color: rgb(255, 192, 235);
+}
