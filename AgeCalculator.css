@@ -36,7 +36,7 @@
     align-items: center;
 }
 
-input-box input{
+.input-box input{
     flex: 1;
     margin-right: 20px;
     padding: 14px 20px;
@@ -55,4 +55,18 @@ input-box input{
     font-weight: 500;
     color: #333;
     cursor: pointer;
+}
+
+.input-box input::-webkit-calendar-picker-indicator{
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: auto;
+    position: absolute;
+    background-position: calc(100%-10px);
+    background-size: 30px;
+    cursor: pointer;
+    height: auto;
+
 }
